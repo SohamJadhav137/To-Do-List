@@ -10,7 +10,7 @@ I've also implemented localStorage to ensure the task list (including completed 
 
 ### DEMO Video:
 
-https://github.com/user-attachments/assets/811b3629-e7d4-4c6a-97cf-fb2e91657c56
+https://github.com/user-attachments/assets/8f74c7d3-e688-4484-877b-77c3e14640d2
 
 ### 🕓 Upcoming Features:
 -	Edit task name
