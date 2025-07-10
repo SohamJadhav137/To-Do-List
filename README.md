@@ -1,2 +1,13 @@
-# To-Do-List
-A lightweight to-do list web application built using HTML, CSS, and JavaScript. It offers features like adding, completing, and deleting tasks, along with persistent storage using localStorage. It has clean and minimal user interface for smooth experience across browser sessions.
+# To-Do-List 📋
+Built a to-do list web app using HTML, CSS, and JavaScript with a clean and minimal user interface.
+Users can:
+- Add new tasks by typing and pressing Enter
+- Mark tasks as completed using a checkbox
+-	Delete tasks once completed or if added by mistake
+
+I've also implemented localStorage to ensure the task list (including completed or unchecked tasks) remains intact even after reloading or closing the browser tab.
+
+🕓 Upcoming Features:
+-	Edit task name
+-	Task completion status (Completed/Total) with progress bar
+-	Responsive desgin
