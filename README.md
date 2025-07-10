@@ -1,7 +1,7 @@
 # To-Do-List 📋
 Built a to-do list web app using HTML, CSS, and JavaScript with a clean and minimal user interface.
 Users can:
-- Add new tasks by typing and pressing Enter
+- Add new tasks by clicking on "Add" button or pressing Enter
 - Mark tasks as completed using a checkbox
 -	Delete tasks once completed or if added by mistake
 
