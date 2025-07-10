@@ -1,0 +1,105 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: cadetblue; */
+}
+
+body{
+    background-color: grey;
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    padding: 5px;
+}
+h2.no-tasks{
+    display: block;
+}
+
+main{
+    padding-top:3%;
+    padding-left: 30%;
+    padding-right: 30%;
+    min-height: 450px;
+    height: auto;
+    background-color: rgb(1, 109, 109);
+}
+
+.input-field{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-box{
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input-box:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    width: 70px;
+}
+
+.input-field input, .input-field button{
+    font-size: inherit;
+}
+
+.task-list{
+    min-height: 300px;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task{
+    list-style: none;
+    min-width: 300px;
+    max-width: 300px;
+    /* border: 1px solid darkblue; */
+    background-color: rgb(117, 223, 178);
+    padding: 15px;
+    margin: 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    word-break: break-all;
+}
+.chk-box{
+    margin-right: 25px;
+}
+span{
+    line-height: 30px;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.completed-box{
+    background-color: rgba(117, 223, 179, 0.253);
+}
+
+.delete-btn{
+    min-width: 30px;
+    max-width: 30px;
+    background: none;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
